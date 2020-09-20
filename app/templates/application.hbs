@@ -1,3 +1,29 @@
-<h2 id="title">Welcome to Our App</h2>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav nav">
+            <li>{{#link-to 'index'}} Home {{/link-to}}</li>
+            <li>{{#link-to 'about'}}About {{/link-to}}</li>
+            <li>{{#link-to 'services'}}Services{{/link-to}}</li>
+            <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+        </ul>
+
+    </div>
+</nav>
+
 
 {{outlet}}
+<!-- /.container -->
+
+
+
+
+
+
+
+
